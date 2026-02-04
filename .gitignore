@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.ipynb_checkpoints/
+
+# Python
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Data – do NOT track raw Kaggle files
+data/raw/
+data/interim/
+data/external/
+
+# Large artifacts
+models/
+logs/
